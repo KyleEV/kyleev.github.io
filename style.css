@@ -1,0 +1,48 @@
+h1 {color: F5F5F5;}
+h1 {text-align: center;}
+h1 {margin-bottom: 30px;}
+h1 {background-color: black}
+
+.title {
+	color: F5F5F5;
+}
+.title {font-family: courier}
+.title {text-align: center;}
+.text-center {
+	text-align: center;
+}
+.subtitle {color: grey;
+}
+.subtitle {font-family: courier;}
+body {padding: 30px;
+	background-color: F5F5F5
+
+}
+form {text-align: : center;}
+p {text-align: center;}
+button {text-align: center;}
+h2 {text-align: center;}
+h2 {margin-bottom: 21px;}
+h3
+ {text-align: center;}
+img {text-align: center;}
+img {padding: 100px;}
+.menu {background-color:F5F5F5;}
+.menu__list {list-style: none}
+.menu__listitem {display: inline-block;}
+.menu__listitem {text-align: center;}
+.menu__listlink {color: black;}
+.menu__listlink {text-align: center;}
+nav {text-align: center;}
+.menu__list {padding: 0px;}
+.menu__listitem {padding: 25px;}
+.menu__listitem {padding-bottom: 10px;}
+.menu__listitem {padding-top: 10px;}
+.naruto {margin-right:123px;}
+body {margin: 100px;}
+.menu__listitem {font-family: courier;}
+body {font-family: 'roboto', courier;}
+p {font-weight: normal}
+.intro {padding-bottom:110px}
+.me {padding-top: 20px}
+footer {padding-top: 30px;}

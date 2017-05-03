@@ -8,18 +8,19 @@
    <body>
 
      <header>
-        <nav class="menu"> 
+        <nav class="menu"> <!-- Classifiying the menu allows me to easily manipulate it in the styles sheet without imacting the rest of the nav/header.-->
+
            <ul class="menu__list">
-           <li class="menu__listitem"> <a href='index.html' class="menu__listlink">Home</a>
+           <li class="menu__listitem"> <a href='index.html' id="Home" onmouseover="homeImage()" class="menu__listlink">Home</a>
               </li>
-              <li class="menu__listitem"> <a href='About.html' class="menu__listlink">About</a>
+              <li class="menu__listitem"> <a href='About.html' id="About" onmouseover="aboutImage()"class="menu__listlink">About</a>
               </li>
                <li class="menu__listitem">
-                   <a href='work.html' class="work.html">Work</a> 
+                   <a href='work.html' class="work.html" id="Wist" onmouseover="workImage()">Work</a> 
 
                </li>
                <li class="menu__listitem "> 
-                    <a href='contact.html' class="contact" class="menu__listlink">Contact</a>
+                    <a href='contact.html' class="contact" class="menu__listlink" id="Contact" onmouseover="contactImage()">Contact</a>
                 </li>
             </ul>
        </nav>
@@ -29,7 +30,7 @@
     <h2> <img class="naruto" src="Image.png" height="509" width="350"> 
     </h2>
 
-    <h3> <a href="https://www.youtube.com/channel/UCaE4ErECOvdWzsr7cBPZgzg">Kyle Evans YouTube Channel</a> </h3>
+    <h3> <a href="https://www.youtube.com/channel/UCaE4ErECOvdWzsr7cBPZgzg">Kyle Evans YouTube Channel</a> </h3> <!-- THis is an external link that I embedded into my website. Umlike other links which are contaied within the Website folders, this one links to an external website - my youtube channel-->
     <p class="intro"> This is my first website <p>
     <section class="text-center" id="About">
       <h1>About</h1>
@@ -38,7 +39,7 @@
       </section>
 
       <p> Hi my name is Kyle. I am an Apprentice IT engineer and musician. I began learning the piano when I was around 14 years old and very quickly fell in love with it. Through passion and perserverance, I manged to rapidly excel in my abilities. Within the first year, I began learning how to play Grade 8 pieces of music and added them to my repertoire within a few months. <br>
-      <img src="piano.png" width="400" height="400">
+      <img src="piano.png" width="400" height="400"> <!-- Here I manually altered the height and width of my image to precisely customise it and make it more suitable for my website.-->
 
       <section id="Work"> 
       <h1>Work</h1>
@@ -48,7 +49,7 @@
       </section>
       <section id="Contact">
       	<h1> Contact</h1>
-      	<form method="get" action="giphy.gif">
+      	<form method="get" action="giphy.gif"> <!-- I have inserted a form to allow visitors of the website to type there names, email and message before submitting it. This way Visitors can send messages to me via the website. -->
          
       	<label>  Name  </label>
       	<input>
@@ -67,6 +68,7 @@
   
   <footer><p>Created and built by Kyle Evans - 2017<p>
   <footer>
+  <script type="text/javascript" src="website.js"></script>
     </Body>
 </html>
 

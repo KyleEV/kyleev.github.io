@@ -4,10 +4,10 @@ h1 {margin-bottom: 30px;}
 h1 {background-color: black}
 
 .title {
-	color: F5F5F5;
+	color: F5F5F5; /* Here I have made the colour of the title the same as the background. This is to give the effect of the text being "Cut out" or transparent. */
 }
 .title {font-family: courier}
-.title {text-align: center;}
+.title {text-align: center;} /* Here you can see me using the "Title" class that I specified in my HTML sheet. This has made it easier for me to edit this one particular object. */
 .text-center {
 	text-align: center;
 }
@@ -18,7 +18,7 @@ body {padding: 30px;
 	background-color: F5F5F5
 
 }
-form {text-align: : center;}
+form {text-align: : center;} /* I have used text-align to center much of my website's text, images and structure. This is to make my website more visually appealing by adding symmetry. */
 p {text-align: center;}
 button {text-align: center;}
 h2 {text-align: center;}
@@ -26,7 +26,7 @@ h2 {margin-bottom: 21px;}
 h3
  {text-align: center;}
 img {text-align: center;}
-img {padding: 100px;}
+img {padding: 100px;} /* I have added padding around my images to ensure that they are appropriately spaced from all other structures. */
 .menu {background-color:F5F5F5;}
 .menu__list {list-style: none}
 .menu__listitem {display: inline-block;}

@@ -1,5 +1,5 @@
 function homeImage() {
-document.getElementById("Home")css.style.color = "red";
+document.getElementById("Home")css.style.h1.color = "red";
 
 
 

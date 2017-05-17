@@ -1,5 +1,5 @@
 function homeImage() {
 
 	console.log ("rollingover");
-document.getElementById("Home").innerHTML= "<img src='download.JPG'>";
+document.getElementById("piano").src='download.jpg';
 }

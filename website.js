@@ -1,5 +1,5 @@
 function homeImage() {
-document.getElementById("Home")css.style.h1.color = "red";
+document.getElementById("Home").innerHTML= "<img src= 'download.JPEG>"
 
 
 
